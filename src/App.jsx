@@ -1,14 +1,9 @@
-import MyComponent from'./Components/MyComponent';
-import Counter from'./Components/Counter';
-import ToDoList from'./Components/ToDoList';
-import "./App.css";
-
-export default function App() {
+import MyComponent from './MyComponent';
+function App() {
   return (
     <>
-    <MyComponent/>
-    <Counter/>
-    <ToDoList/>
+      <MyComponent/>
     </>
   );
 }
+export default App;
